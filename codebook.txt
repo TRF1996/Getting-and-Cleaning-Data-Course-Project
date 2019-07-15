@@ -1,0 +1,13 @@
+Explanation for variables in the run_analysis.R
+train.x: save the training data of x_train.txt
+train.y: save the activity data of Y_train.txt
+trainsubject: save the subject data of subject_train.txt showing the subject of every row of train.x data.
+test.x: save the testing data of X_test.txt
+test.y: save the activity data of Y_test.txt
+testsubject: save the subject data of subject_train.txt showing the subject of every row of test.x data.
+traindata:merge train.y train.x trainsubject into a dataset by column merging
+testdata:merge test.y test.x testsubject into dataset by column merging
+df: dataframe contains both train and test data merged by row.
+featurename: load feature name from features.txt
+featureindex: choose features related to mean and standard deviation from featurename
+dfex: it has the same data as df dataset, but its variable names and second activity column are changed into more understandable labels.
